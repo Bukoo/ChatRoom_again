@@ -1,0 +1,113 @@
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+.chat {
+	margin: 5%;
+	font-family: 'Microsoft YaHei', '微软雅黑', serif;
+}
+.panel {
+	float: left;
+	display: inline-block;
+	height: 500px;
+	border: 1px solid #C0C0C0;
+}
+#user-list.panel {
+	min-width: 170px;
+	max-width: 200px;
+	margin-left: 40px;
+	border-right: none;
+	background-color: #CCCCCC;
+}
+	#user-list .panel-heading {
+		padding: auto;
+		text-align: center;
+		line-height: 40px;
+		height: 40px;
+		background-color: #708090;
+		color: #F5F5F5;
+	}
+	#user-list .panel-body {
+		padding-left: 0;
+		padding-right: 0;
+		overflow: auto;
+		max-height: 460px;
+	}
+	#user-list button {
+		height: 50px;
+		line-height: 50px;
+		display: block;
+		width: 100%;
+		border: none;
+		background-color: #EEEEEE;
+		font-family: 'Microsoft YaHei', '微软雅黑', serif;
+		color: #696969;
+	}
+	#user-list button:hover {
+		background-color: #AFBFCF;
+		color: #F5F5F5;
+	}
+	#user-list button.clicked {
+		background-color: #9FAFBF;
+		color: #F5F5F5;
+	}
+#chat-box.panel {
+	width: 600px;
+	border-left-color: #D3D3D3;
+	border-left-width: 1px;
+}
+	#chat-box .panel-heading {
+		padding: auto;
+		text-align: center;
+		line-height: 40px;
+		height: 40px;
+		background-color: #F5F5F5;
+		color: #696969;
+	}
+	#chat-box .panel-body {
+		height: 460px;	
+	}
+	#chat-box .view-box {
+		height: 300px;
+		background-color: #F5F5F5;
+	}
+		#chat-box .view {
+			padding: 0px 18px;
+			height: 280px;
+			overflow: auto;
+		}
+		#chat-box .view p {
+			
+		}
+	#chat-box .input-box {
+		border-top: 1px solid #D3D3D3;
+		background-color: #F8F8FF;
+		height: 159px;
+	}
+		#chat-box .input {
+			padding: 14px;
+			height: 60%;
+			background-color: #F8F8FF;
+		}
+			#chat-box .input textarea {
+				height: 100%;
+				width: 99%;
+				resize: none;
+				background-color: #F8F8FF;
+				border-color: #F8F8FF;
+			}
+			#chat-box .send {
+				background-color: #F8F8FF;
+			}
+			#chat-box .input-box button {
+				float: right;
+				margin-top: 5px;
+				background-color: #F5F5F5;
+				border: 1px solid #D3D3D3;
+				width: 80px;
+				height: 25px;
+				font-family: 'Microsoft YaHei', '微软雅黑', serif;
+			}
