@@ -10,4 +10,8 @@ while True:
 		break
 	else:
 		s.send(data)
+<<<<<<< HEAD
 		print s.recv(1024)
+=======
+		print s.recv(1024)
+>>>>>>> b5478a38d8a9461577328d73ba43bd54c63f5625
